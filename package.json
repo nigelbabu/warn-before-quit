@@ -1,9 +1,9 @@
 {
-    "name": "meta-q-override", 
-    "license": "MPL 1.1/GPL 2.0/LGPL 2.1", 
-    "author": "Nigel Babu", 
-    "version": "0.3", 
-    "fullName": "meta-q-override", 
-    "id": "jid1-7OsjI9sxTAYQNg", 
+    "name": "meta-q-override",
+    "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
+    "author": "Nigel Babu",
+    "version": "0.4",
+    "fullName": "meta-q-override",
+    "id": "jid1-7OsjI9sxTAYQNg",
     "description": "Warn before quitting Firefox."
 }
