@@ -5,5 +5,6 @@
     "version": "0.6",
     "fullName": "meta-q-override",
     "id": "jid1-7OsjI9sxTAYQNg",
-    "description": "Warn before quitting Firefox."
+    "description": "Warn before quitting Firefox.",
+    "permissions": {"private-browsing": true}
 }
