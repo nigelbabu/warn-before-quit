@@ -5,11 +5,11 @@ exports.test_test_run = function(test) {
 };
 
 exports.test_id = function(test) {
-  test.assert(require("self").id.length > 0);
+  test.assert(require("sdk/self").id.length > 0);
 };
 
 exports.test_url = function(test) {
-  require("request").Request({
+  require("sdk/request").Request({
     url: "http://www.mozilla.org/",
     onComplete: function(response) {
       test.assertEqual(response.statusText, "OK");
@@ -20,7 +20,7 @@ exports.test_url = function(test) {
 };
 
 exports.test_open_tab = function(test) {
-  const tabs = require("tabs");
+  const tabs = require("sdk/tabs");
   tabs.open({
     url: "http://www.mozilla.org/",
     onReady: function(tab) {
