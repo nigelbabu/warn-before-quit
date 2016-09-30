@@ -1,11 +1,19 @@
 {
-    "name": "meta-q-override",
-    "license": "MIT",
-    "author": "Nigel Babu",
-    "version": "0.8",
-    "fullName": "meta-q-override",
-    "id": "jid1-7OsjI9sxTAYQNg",
-    "description": "Warn before quitting Firefox.",
-    "permissions": {"private-browsing": true},
-    "multiprocessCompatible": "true"
+  "title": "Warn Before Quit",
+  "name": "meta-q-override",
+  "version": "0.8.0",
+  "description": "Warn before quitting Firefox",
+  "main": "index.js",
+  "author": "Nigel Babu",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ],
+  "permissions": {
+      "private-browsing": true,
+      "multiprocess": true
+  }
 }
